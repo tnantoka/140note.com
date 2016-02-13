@@ -1,0 +1,30 @@
+/* Base */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+}
+
+img {
+  width: 80%;
+}
+
+/* Bootstrap */
+
+.bg-primary {
+  background: #795548 !important;
+}
+
+a {
+  color: #795548 !important;
+}
+
+a:focus,
+a:hover {
+  color: #5d4037 !important;
+}
+
