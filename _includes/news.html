@@ -1,0 +1,10 @@
+<ul class="list-unstyled">
+  {% for post in site.posts %}
+    {% if post.locale == page.locale %}
+    <li>
+      {% if post.locale == 'en' %}{{ post.date | date: "%b %-d, %Y" }}{% else %}{{ post.date | date: "%Y年%-m月%-d日" }}{% endif %}
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

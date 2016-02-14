@@ -13,6 +13,10 @@ img {
   width: 80%;
 }
 
+.page {
+  border-top: 5px solid #795548;
+}
+
 /* Bootstrap */
 
 .bg-primary {
@@ -20,11 +24,11 @@ img {
 }
 
 a {
-  color: #795548 !important;
+  color: #795548;
 }
 
 a:focus,
 a:hover {
-  color: #5d4037 !important;
+  color: #5d4037;
 }
 

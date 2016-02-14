@@ -1,0 +1,24 @@
+title: 140note
+email: tnantoka@140note.com
+description: ""
+baseurl: ""
+url: "http://140note.com"
+
+markdown: kramdown
+
+message:
+  en:
+    lead: Write in a 140-character world.
+    news: News
+    email: E-mail
+    lang:
+      current: English
+      next: 日本語
+  ja:
+    lead: 140字で残すメモ
+    news: ニュース
+    email: メール
+    lang:
+      current: 日本語
+      next: English
+   

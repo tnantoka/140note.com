@@ -1,0 +1,40 @@
+<div class="text-xs-center">
+  <div class="jumbotron jumbotron-fluid bg-primary">
+    <div class="container">
+      <h1 class="display-3">{{ site.title }}</h1>
+      <p class="lead">{{ site.message[page.locale].lead }}</p>
+    </div>
+  </div>
+
+  <ul class="nav nav-inline m-b-1">
+    <li class="nav-item">
+      <a class="nav-link active" href="/{% if page.locale == 'ja' %}ja/{% endif %}news/">{{ site.message[page.locale].news }}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.facebook.com/140note" target="_blank">Facebook</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://twitter.com/140noteapp" target="_blank">Twitter</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="mailto:{{ site.email }}">{{ site.message[page.locale].email }}</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">{{ site.message[page.locale].lang.current }}</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="/{% if page.locale == 'en' %}ja/{% endif %}">{{ site.message[page.locale].lang.next }}</a>
+      </div>
+    </li>
+  </ul>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-4">
+        <p>
+          <a href=""><img src="{{ "/images/Download_on_the_App_Store_Badge_US-UK_135x40.svg" | prepend: site.baseurl }}"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
