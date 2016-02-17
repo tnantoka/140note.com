@@ -6,7 +6,7 @@
     </div>
   </div>
 
-  <ul class="nav nav-inline m-b-1">
+  <ul class="nav nav-inline m-b-2">
     <li class="nav-item">
       <a class="nav-link active" href="/{% if page.locale == 'ja' %}ja/{% endif %}news/">{{ site.message[page.locale].news }}</a>
     </li>
@@ -28,6 +28,13 @@
   </ul>
 
   <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <p>
+          <a href=""><img src="{{ "/images/images.png" | prepend: site.baseurl }}"></a>
+        </p>
+      </div>
+    </div>
     <div class="row">
       <div class="col-sm-4 col-sm-offset-4">
         <p>
