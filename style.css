@@ -5,7 +5,7 @@ body {
   color: rgba(0, 0, 0, 0.87);
 }
 
-h1 {
+.home h1 {
   font-family: 'Josefin Slab', serif;
 }
 
@@ -17,12 +17,17 @@ img {
   border-top: 5px solid #795548;
 }
 
+.bg-clean {
+  background: none !important;
+}
+
 /* Bootstrap */
 
 .bg-primary {
   background: #795548 !important;
 }
 
+.navbar-light .navbar-brand,
 a {
   color: #795548;
 }

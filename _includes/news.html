@@ -4,6 +4,7 @@
     <li>
       {% if post.locale == 'en' %}{{ post.date | date: "%b %-d, %Y" }}{% else %}{{ post.date | date: "%Y年%-m月%-d日" }}{% endif %}
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Link</a>
     </li>
     {% endif %}
   {% endfor %}

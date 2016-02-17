@@ -2,7 +2,7 @@ title: 140note
 email: tnantoka@140note.com
 description: ""
 baseurl: ""
-url: "http://140note.com"
+url: "http://www.140note.com"
 
 markdown: kramdown
 
@@ -22,3 +22,8 @@ message:
       current: 日本語
       next: English
    
+gems:
+#  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+

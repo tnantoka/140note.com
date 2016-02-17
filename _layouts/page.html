@@ -6,6 +6,11 @@ layout: default
   <div class="container">
     <nav class="navbar navbar-light">
       <a class="navbar-brand" href="/{% if page.locale == 'ja' %}ja/{% endif %}">{{ site.title }}</a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="/{% if page.locale == 'ja' %}ja/{% endif %}news/">{{ site.message[page.locale].news }}</a>
+        </li>
+      </ul>
     </nav>
   </div>
   <div class="container">
